@@ -1,4 +1,4 @@
-# Zaokraglij do dwoch miejsc po przecinku
 def oblicz_potega(liczba, potega) -> float:
-    # TODO
-    return 0
+    wynik = liczba ** potega
+    wynik = round(wynik, 2)
+    return wynik
