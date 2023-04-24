@@ -19,3 +19,4 @@ def nawiasy(tekst: str) -> [int, int]:
             zamykajace += 1
 
     return [otwierajace, zamykajace]
+
