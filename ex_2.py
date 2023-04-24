@@ -1,3 +1,3 @@
 def policz_studentow(studenci) -> int:
-    # TODO
-    return 0
+    stringi = [element for element in studenci if isinstance(element, str)]
+    return len(stringi)
